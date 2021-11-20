@@ -2,7 +2,7 @@
     
     box-sizing: content-box;
     background-color: #E8835A;
-      
+    justify-content: flex-start;  
 }
 .main1 {
   
@@ -14,7 +14,8 @@
     background-color: honeydew;
     padding: 40px;
     margin: 50px;
-    display: flex;
+    
+ 
 }
 
 
