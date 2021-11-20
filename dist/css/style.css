@@ -1,0 +1,20 @@
+.main {
+    
+    box-sizing: content-box;
+    background-color: #E8835A;
+      
+}
+.main1 {
+  
+    background-color: blanchedalmond;
+
+}
+.header, .Homer, .Marge, .Bart, .Lisa, .Maggie {
+    width: 30%; 
+    background-color: honeydew;
+    padding: 40px;
+    margin: 50px;
+    display: flex;
+}
+
+
