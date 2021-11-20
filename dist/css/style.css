@@ -1,21 +1,21 @@
 .main {
-    
-    box-sizing: content-box;
     background-color: #E8835A;
-    justify-content: flex-start;  
+    display: flex;
+  flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
 }
-.main1 {
-  
-    background-color: blanchedalmond;
 
-}
 .header, .Homer, .Marge, .Bart, .Lisa, .Maggie {
-    width: 30%; 
+    width: 30%; height: 40%; 
     background-color: honeydew;
-    padding: 40px;
-    margin: 50px;
     
- 
-}
+    
+    border: solid blue;
 
+}
+img { width: 100%
+    
+    
+}
 
