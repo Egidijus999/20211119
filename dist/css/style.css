@@ -1,21 +1,48 @@
+.box1 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: #E8835A ;
+  
+  /*border: 5px solid black;*/
+  align-items: center; 
+}
+
+
 .main {
     background-color: #E8835A;
     display: flex;
-  flex-wrap: wrap;
-    align-items: stretch;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
+    width: 60%; height: auto;
+   /* border: 5px solid black;*/
+   /* margin: 300px;*/
+   /* background-color: burlywood;*/
+    margin: 100px 200px; 
+    padding: 20px 100px;
+    
 }
 
 .header, .Homer, .Marge, .Bart, .Lisa, .Maggie {
-    width: 30%; height: 40%; 
-    background-color: honeydew;
-    
-    
-    border: solid blue;
-
+    width: 25%; height: 30%;
+  /* width: 100px; height: 130px; */    
+    border-radius: 3%;    
+    justify-content: space-around;
+    background-color: bisque;    
+    border: solid bisque;
 }
-img { width: 100%
-    
-    
+img { width: 100%    
 }
 
+ /*font-family: 'Caveat', cursive;*/
+.header {
+  font-family: 'Caveat', cursive;
+  font-size: xx-large;   
+}
+.fa fa-facebook,
+.fa fa-instagram,
+.fa fa-twitter {
+  background: yellow;
+  color: #E8835A;
+}
